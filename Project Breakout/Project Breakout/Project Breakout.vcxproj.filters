@@ -19,6 +19,12 @@
     <Filter Include="Source Files\misc">
       <UniqueIdentifier>{7ece4ed6-3ae0-422e-b8a6-fafebd6a4b17}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\misc">
+      <UniqueIdentifier>{879565cc-1e0c-48be-9323-454861be4344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{9bc0b6dd-e317-444e-a420-aee0dd5b00e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,8 +33,19 @@
     <ClCompile Include="math.cpp">
       <Filter>Source Files\math</Filter>
     </ClCompile>
-    <ClCompile Include="types.cpp">
+    <ClCompile Include="random.cpp">
       <Filter>Source Files\misc</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
