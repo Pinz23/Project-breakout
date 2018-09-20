@@ -47,5 +47,8 @@
     <ClInclude Include="math.h">
       <Filter>Header Files\math</Filter>
     </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
